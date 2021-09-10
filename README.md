@@ -3,7 +3,7 @@
 
 
 
-# Data-Coin 
+# Data-Coin
 Regression Analysis of Data Scientist Salaries on Glassdoor
 
 
@@ -75,3 +75,5 @@ Regression Analysis of Data Scientist Salaries on Glassdoor
 **1. What would a minimum viable product (MVP) look like for this project?**
 
   - My MVP will be a correlation chart and regression model using all variables collected for this project.
+
+  ![footer](https://github.com/CeliaSagas/Data-Coin/blob/c33d8e47151a67585af6103b46f8282cdcc8a8fd/img/coin-spin-4.gif)
