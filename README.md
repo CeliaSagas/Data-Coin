@@ -29,16 +29,43 @@ Regression Analysis of Data Scientist Salaries on Glassdoor
 
   - I will scrape Glassdoor.com for 50 data science salary postings in the top 10 major metropolitan areas for tech in the United States:
 
-            * Phoenix, Arizona
-            * Portland, Oregon
-            * Houston, Texas
-            * Seattle, Washington
-            * San Francisco, California
-            * Austin, Texas
-            * San Jose, California
-            * Boston, Massachusetts
-            * Washington, DC
-            * Philadelphia, Pennsylvania
+            * Dallas, texas
+            *  Miami, fl
+            *  Atlanta, georgia
+            *  Detroit, mi
+            *  Cleveland, oh
+            *  Denver, co
+            *  Orlando, fl
+            *  st.louis, mo
+            *  Charlotte, nc
+            *  Salt Lake City, ut
+            *  Columbus, oh
+            *  Las Vegas, nv
+            *  Kansas City, mo
+            *  Indianapolis, in
+            *  Cincinnati, oh
+            *  Raleigh, nc
+            *  phoenix, az
+            *  portland, or
+            *  houston, tx
+            *  seattle, wa
+            *  san francisco, ca
+            *  Austin, Tx
+            *  san jose, ca
+            *  boston, ma
+            *  washington, dc
+            *  philadelphia, pa
+            *  fremont, CA
+            *  New York, NY
+            *  arlington, va
+            *  los angeles, ca
+            *  irvine, ca
+            *  chicago, il
+            *  Minneapolis, MN
+            *  Baltimore, MD
+            *  San Diego, CA
+            *  Palo Alto, CA
+
 
 
 **2. What is an individual sample/unit of analysis in this project?**
