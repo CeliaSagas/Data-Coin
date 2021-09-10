@@ -29,7 +29,7 @@ Regression Analysis of Data Scientist Salaries on Glassdoor
 
   - I will scrape Glassdoor.com for 50 data science salary postings in the top 10 major metropolitan areas for tech in the United States:
 
-            * Dallas, texas
+            *  Dallas, texas
             *  Miami, fl
             *  Atlanta, georgia
             *  Detroit, mi
