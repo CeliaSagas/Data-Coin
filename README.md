@@ -1,106 +1,147 @@
-![Header](https://github.com/CeliaSagas/Data-Coin/blob/c33d8e47151a67585af6103b46f8282cdcc8a8fd/img/coin-spin-4.gif)
+<!-- Add banner here -->
+![Banner](https://github.com/CeliaSagas/coffee-time/blob/1cc77bd51027beafe9cb39f6c140931c2e96231f/Coffee%20Time.jpg)
+
+# Coffee Time
+
+<!-- Add buttons here -->
+
+
+![GitHub last commit](https://img.shields.io/github/last-commit/CeliaSagas/Data-Coin)
+![GitHub issues](https://img.shields.io/github/issues/CeliaSagas/Data-Coin)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/CeliaSagas/Data-Coin)
+![Project Code](https://img.shields.io/github/languages/top/CeliaSagas/Data-Coin)
+
+
+<!-- Describe your project in brief -->
+
+You've just finished up your statistics and coding training, and are ready to hit the job field as a budding new Data Scientist ready to bloom.
+
+What kind of companies and job postings will best serve your growth as a creator of data pipelines and algorithms? How much monetary support will said job postings generate you?
+
+Unfortunately, many of the job postings available today do not offer information on the available salary range per open position, which is why this regression model on Data Scientist salaries was created.
+
+By scraping a little over 1300 salary postings in 36 cities across the continental United States on Glassdoor, I was able to create a regression model that can somewhat predict salaries for data scientists
+according to some key factors identified by the model. Some of them are obvious, such as an Internship or Part Time position is associated with a decrease in Salary (about 40k), while taking a position
+at a tech company on the West Coast is associated with an increase in Salary (about an 11k boost).
+
+But some other findings are nuanced and require further modelling, such as the Cost of Living-- a higher cost of living was associated with a very modest !decrease in salary in the training set,(- $28), a
+modest increase in the validation set (+ $368), and again a decrese in the test set of data (- $75). Perhaps the Cost of Living at the Headquarter city of the Company has a more direct relationship with
+Salary than the Cost of Living at the city in which the Job is posted.
+
+Further inquiry is required.
+
+But for now, with the information thus gathered, we can gain a pretty moderate idea of the most important factors to keep in mind when applying for
+Data Scientist positions (have you considered the West Coast? )
+
+# Demo-Preview
+<!-- Add a demo for your project -->
+
+This project uses Python packages: pandas, numpy, request, os, selenium, statsmodels, sklearn and matplotlib to model and visualize salary data scraped from Glassdoor.
+
+![Histogram Salary](https://github.com/CeliaSagas/coffee-time/blob/7d325f57443562c08f0457e894099e3f96ba50c7/2019_2021_traffic.png)
+
+With this data, we can identify the top 20 Starbucks location in Manhattan to open, priority identified by proximity to the MTA stations with the fastest growing foot traffic.
+
+![Bar Plot Revenue](https://github.com/CeliaSagas/coffee-time/blob/a39d27df19b3a5943fef4b4fe76a6c7f12745152/img/Starbucks_Map.png)
+
+![Bar Plot Location](https://github.com/CeliaSagas/coffee-time/blob/a39d27df19b3a5943fef4b4fe76a6c7f12745152/img/Starbucks_Map.png)
+
+[Residuals Lasso Test](https://github.com/CeliaSagas/coffee-time/blob/a39d27df19b3a5943fef4b4fe76a6c7f12745152/img/Starbucks_Map.png)
+
+![QQ Plot Influetial Points Removed](https://github.com/CeliaSagas/coffee-time/blob/a39d27df19b3a5943fef4b4fe76a6c7f12745152/img/Starbucks_Map.png)
+
+[Click Here](https://github.com/CeliaSagas/coffee-time) to see the full project
+
+# Table of contents
+
+
+- [Project Title](#project-title)
+- [Demo-Preview](#demo-preview)
+- [Table of contents](#table-of-contents)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Footer](#footer)
+
+# Installation
+[(Back to top)](#table-of-contents)
+
+
+To use this project, first clone the repo on your device using the command below:
+
+```git init```
+
+```git clone https://github.com/navendu-pottekkat/nsfw-filter.git```
 
 
 
+# Usage
+[(Back to top)](#table-of-contents)
 
-# Data-Coin
-Regression Analysis of Data Scientist Salaries on Glassdoor
+Glassdoor Salaries are accessed through the search page:
 
+[Glassdoor Salary Search](https://www.glassdoor.com/Salaries/index.htm)
 
+Glassdoor Company Overview is accessed through Data Scientist Salary posting per Company:
 
+[Facebook Overview](https://www.glassdoor.com/facebook)
 
-# Question/Need: :question:
+And Cost of Living Index was accessed through Numbeo:
 
-**1. What is the question behind your analysis? What is the purpose of the model/system you plan to build?**
+Cost of Living (https://www.numbeo.com/cost-of-living/rankings.jsp)
 
-  - Data Scientist salaries posted on Glassdoor may vary by geographical location, industry, size of company, and number of reviews left by current and former employees of each company. I plan to build a regression model that will identify what the most important factors for predicting salary are, so that newly trained data scientists entering the field know what to take into consideration when negotiating their salary.
+The Full List of Cities used for this project is:
 
-
-
-**2. Who benefits from exploring this question or building this model/system?**
-
-  - New data scientists entering then field and considering what salary to negotiate for, as well as current data scientists gauging their own salary against the industry norms in their area.
-
-
-
-# Data Description: :card_index_dividers:
-
-**1. What dataset(s) do you plan to use, and how will you obtain the data?**
-
-  - I will scrape Glassdoor.com for 50 data science salary postings in the top 10 major metropolitan areas for tech in the United States:
-
-            *  Dallas, texas
-            *  Miami, fl
-            *  Atlanta, georgia
-            *  Detroit, mi
-            *  Cleveland, oh
-            *  Denver, co
-            *  Orlando, fl
-            *  st.louis, mo
-            *  Charlotte, nc
-            *  Salt Lake City, ut
-            *  Columbus, oh
-            *  Las Vegas, nv
-            *  Kansas City, mo
-            *  Indianapolis, in
-            *  Cincinnati, oh
-            *  Raleigh, nc
-            *  phoenix, az
-            *  portland, or
-            *  houston, tx
-            *  seattle, wa
-            *  san francisco, ca
-            *  Austin, Tx
-            *  san jose, ca
-            *  boston, ma
-            *  washington, dc
-            *  philadelphia, pa
-            *  fremont, CA
-            *  New York, NY
-            *  arlington, va
-            *  los angeles, ca
-            *  irvine, ca
-            *  chicago, il
-            *  Minneapolis, MN
-            *  Baltimore, MD
-            *  San Diego, CA
-            *  Palo Alto, CA
+        Dallas, texas
+        Miami, Fl
+        Atlanta, Ga
+        Detroit, Mi
+        Cleveland, Oh
+        Denver, co
+        Orlando, Fl
+        st.louis, Mo
+        Charlotte, Nc
+        Salt Lake City, Ut
+        Columbus, Oh
+        Las Vegas, Nv
+        Kansas City, Mo
+        Indianapolis, In
+        Cincinnati, Oh
+        Raleigh, Nc
+        Phoenix, Az
+        Portland, Or
+        Houston, Tx
+        Seattle, Wa
+        San francisco, Ca
+        Austin, Tx
+        San Jose, Ca
+        Boston, Ma
+        Washington, Dc
+        philadelphia, Pa
+        Fremont, CA
+        New York, NY
+        Arlington, va
+        Los Angeles, ca
+        Irvine, ca
+        Chicago, Il
+        Minneapolis, MN
+        Baltimore, MD
+        San Diego, CA
+        Palo Alto, CA
 
 
+# License
+[(Back to top)](#table-of-contents)
 
-**2. What is an individual sample/unit of analysis in this project?**
+This project is designed for free and open use.
 
-   - A single unit of analysis is one company with data on location, size, industry, data scientist base salary, lowest salary, highest salary, 1st quartile, 3rd quartile, cash bonus, stock bonus, number of reviews, number of salaries the Glassdoor.com estimate is based on, and data scientist total salary.
+[GNU General Public License version 3](https://opensource.org/licenses/GPL-3.0)
 
+# Footer
+[(Back to top)](#table-of-contents)
 
-**3. What characteristics/features do you expect to work with?**
+I hope this information brings you all the fulfillment and Salary options in your job search!
 
-   - I expect to work with the total salary, location, size, and industry for each company.
+<!-- Add the footer here -->
 
-
-**4. If modeling, what will you predict as your target?**
-
-   - My predictive target is the total salary per company.
-
-
-
-# Tools: :hammer_and_wrench:
-
-**1. How do you intend to meet the tools requirement of the project?**
-
-   - I plan to use pandas, seaborn, matplotlib, scipy, selenium, and chromedriver.
-
-
-**2. Are you planning in advance to need or use additional tools beyond those required?**
-
-   - If time allows, I would love to begin learning d3 and animate my visualizations for this project.
-
-
-
-# MVP Goal: :bar_chart:
-
-**1. What would a minimum viable product (MVP) look like for this project?**
-
-  - My MVP will be a correlation chart and regression model using all variables collected for this project.
-
-  ![footer](https://github.com/CeliaSagas/Data-Coin/blob/c33d8e47151a67585af6103b46f8282cdcc8a8fd/img/coin-spin-4.gif)
+![Footer]()
