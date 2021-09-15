@@ -97,6 +97,13 @@ Geographical location was mapped onto the City in which the Salary was posted, w
 11. Performed a Lasso Regression Analysis on the validation dataset with the optimal alpha value from the training dataset, Adjusted r2 = .468, MAE = 15577.056, RMSE = 20184.325
 12. Performed a Lasso Regression Analysis on the test dataset with the optimal alpha value identified in training, Final Adjusted r2 = .401, MAE = 16669.88, RMSE = 22055.264
 
+[Adjusted R2 Values](https://github.com/CeliaSagas/Data-Coin/blob/ef28016a84dba0f15f5c55dd7dd7f744e0d35131/img/Bar_Plot_ADJ_R2.png)
+
+Model fit decreases when dropping predictors (OLS Step), increases moderately when removing influential points (OLs_INF), and substantially increases when removing outliers (OLS OUT)
+
+[Observations](https://github.com/CeliaSagas/Data-Coin/blob/ef28016a84dba0f15f5c55dd7dd7f744e0d35131/img/Bar_Plot_Observations.png)
+
+However, the increase in model fit comes at the cost of data points: 4 lost to influence, 53 lost to outliers. Overfitting is a major factor in deciding which model to choose for testing. 
 
 # Installation
 [(Back to top)](#table-of-contents)
