@@ -67,7 +67,7 @@ Geographical location was mapped onto the City in which the Salary was posted, w
 - [License](#license)
 - [Footer](#footer)
 
-#Data
+# Data
 
 **Data Preparation** :mag:
 
