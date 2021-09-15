@@ -90,7 +90,7 @@ Glassdoor Company Overview is accessed through Data Scientist Salary posting per
 
 And Cost of Living Index was accessed through Numbeo:
 
-Cost of Living (https://www.numbeo.com/cost-of-living/rankings.jsp)
+[Cost of Living](https://www.numbeo.com/cost-of-living/rankings.jsp)
 
 The Full List of Cities used for this project is:
 
