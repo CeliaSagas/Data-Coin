@@ -1,7 +1,7 @@
 <!-- Add banner here -->
 ![Banner](https://github.com/CeliaSagas/Data-Coin/blob/e016fd55fecf69dd8a8a5694ae838f494b5f0517/img/datacoinheader.png)
 
-# Coffee Time
+# Data Coin
 
 <!-- Add buttons here -->
 
@@ -40,15 +40,17 @@ This project uses Python packages: pandas, numpy, request, os, selenium, statsmo
 
 ![Histogram Salary](https://github.com/CeliaSagas/Data-Coin/blob/12b8f09a65710ad579b19c905886df361f192a97/img/salary_hist.png)
 
-With this data, we can identify the top 20 Starbucks location in Manhattan to open, priority identified by proximity to the MTA stations with the fastest growing foot traffic.
+The histogram of salaries as reported on Glassdoor show a mean salary of $109,038.29 across the continental United States, with a standard deviation of $28,715.00.
+
 
 ![Bar Plot Revenue](https://github.com/CeliaSagas/Data-Coin/blob/12b8f09a65710ad579b19c905886df361f192a97/img/revenue_bar.png)
 
+Salary range per company revenue show that working for a $10 Billion+ company definitely does pay a bit higher compared to companies making less than $10 Billion, while Unknown/ Non-Applicable revenue refers to Non-Profit, Education, and Government salary ranges.
+
 ![Bar Plot Location](https://github.com/CeliaSagas/Data-Coin/blob/12b8f09a65710ad579b19c905886df361f192a97/img/location_bar.png)
 
-[Residuals Lasso Test](https://github.com/CeliaSagas/Data-Coin/blob/12b8f09a65710ad579b19c905886df361f192a97/img/Lasso_residuals_test.png)
+Geographical location was mapped onto the City in which the Salary was posted, with a higher representation in the West Coast due to the amount of cities associated with the Tech Industry in California, which also contributes to the increase in Salary range for that area.
 
-![QQ Plot Influetial Points Removed](https://github.com/CeliaSagas/Data-Coin/blob/12b8f09a65710ad579b19c905886df361f192a97/img/OLS_INF_QQ_Train.png)
 
 [Click Here](https://github.com/CeliaSagas/Data-Coin) to see the full project
 
