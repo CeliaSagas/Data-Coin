@@ -14,24 +14,25 @@
 
 <!-- Describe your project in brief -->
 
-You've just finished up your statistics and coding training, and are ready to hit the job field as a budding new Data Scientist ready to bloom.
+You've just finished up your statistics and coding training, and are ready to hit the job field as a *budding* new Data Scientist ready to bloom.
 
-What kind of companies and job postings will best serve your growth as a creator of data pipelines and algorithms? How much monetary support will said job postings generate you?
+What kind of companies and job postings will best serve your growth as a creator of data pipelines and algorithms? **How much monetary support will said job postings generate you?**
 
-Unfortunately, many of the job postings available today do not offer information on the available salary range per open position, which is why this regression model on Data Scientist salaries was created.
+*Unfortunately*, many of the job postings available today *do not offer* information on the available salary range per open position, which is why I decided to collect and model said information from Glassdoor.
 
-By scraping a little over 1300 salary postings in 36 cities across the continental United States on Glassdoor, I was able to create a regression model that can somewhat predict salaries for data scientists
-according to some key factors identified by the model. Some of them are obvious, such as an Internship or Part Time position is associated with a decrease in Salary (about 40k), while taking a position
-at a tech company on the West Coast is associated with an increase in Salary (about an 11k boost).
+By scraping a little over 1300 salary postings in 36 cities across the continental United States, I was able to create a regression model that can somewhat predict salaries for data scientists according to some *key factors* identified by the model. Some of them are obvious, such as an Internship or Part Time position is associated with a decrease in Salary *(about 40k)*, while taking a position
+at a tech company on the West Coast is associated with an increase in Salary *(about an 11k boost)*.
 
-But some other findings are nuanced and require further modelling, such as the Cost of Living-- a higher cost of living was associated with a very modest !decrease in salary in the training set,(- $28), a
-modest increase in the validation set (+ $368), and again a decrese in the test set of data (- $75). Perhaps the Cost of Living at the Headquarter city of the Company has a more direct relationship with
+But some other findings are nuanced and require further modelling, such as the Cost of Living-- a higher cost of living was associated with a very modest **decrease** in salary in the training set,*(- $28)*, a
+modest increase in the validation set *(+ $368)*, and again a decrese in the test set of data *(- $75)*.
+
+Perhaps the Cost of Living at the Headquarter city of the Company has a more direct relationship with
 Salary than the Cost of Living at the city in which the Job is posted.
 
-Further inquiry is required.
+*Further inquiry is required.*
 
-But for now, with the information thus gathered, we can gain a pretty moderate idea of the most important factors to keep in mind when applying for
-Data Scientist positions (have you considered the West Coast? )
+For now, however, we can gain a pretty moderate idea of the most important factors to keep in mind when applying for
+Data Scientist positions *(have you considered the West Coast? )*
 
 # Demo-Preview
 <!-- Add a demo for your project -->
