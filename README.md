@@ -1,5 +1,5 @@
 <!-- Add banner here -->
-![Banner](https://github.com/CeliaSagas/coffee-time/blob/1cc77bd51027beafe9cb39f6c140931c2e96231f/Coffee%20Time.jpg)
+![Banner](https://github.com/CeliaSagas/Data-Coin/blob/e016fd55fecf69dd8a8a5694ae838f494b5f0517/img/datacoinheader.png)
 
 # Coffee Time
 
@@ -38,19 +38,19 @@ Data Scientist positions (have you considered the West Coast? )
 
 This project uses Python packages: pandas, numpy, request, os, selenium, statsmodels, sklearn and matplotlib to model and visualize salary data scraped from Glassdoor.
 
-![Histogram Salary](https://github.com/CeliaSagas/coffee-time/blob/7d325f57443562c08f0457e894099e3f96ba50c7/2019_2021_traffic.png)
+![Histogram Salary](https://github.com/CeliaSagas/Data-Coin/blob/12b8f09a65710ad579b19c905886df361f192a97/img/salary_hist.png)
 
 With this data, we can identify the top 20 Starbucks location in Manhattan to open, priority identified by proximity to the MTA stations with the fastest growing foot traffic.
 
-![Bar Plot Revenue](https://github.com/CeliaSagas/coffee-time/blob/a39d27df19b3a5943fef4b4fe76a6c7f12745152/img/Starbucks_Map.png)
+![Bar Plot Revenue](https://github.com/CeliaSagas/Data-Coin/blob/12b8f09a65710ad579b19c905886df361f192a97/img/revenue_bar.png)
 
-![Bar Plot Location](https://github.com/CeliaSagas/coffee-time/blob/a39d27df19b3a5943fef4b4fe76a6c7f12745152/img/Starbucks_Map.png)
+![Bar Plot Location](https://github.com/CeliaSagas/Data-Coin/blob/12b8f09a65710ad579b19c905886df361f192a97/img/location_bar.png)
 
-[Residuals Lasso Test](https://github.com/CeliaSagas/coffee-time/blob/a39d27df19b3a5943fef4b4fe76a6c7f12745152/img/Starbucks_Map.png)
+[Residuals Lasso Test](https://github.com/CeliaSagas/Data-Coin/blob/12b8f09a65710ad579b19c905886df361f192a97/img/Lasso_residuals_test.png)
 
-![QQ Plot Influetial Points Removed](https://github.com/CeliaSagas/coffee-time/blob/a39d27df19b3a5943fef4b4fe76a6c7f12745152/img/Starbucks_Map.png)
+![QQ Plot Influetial Points Removed](https://github.com/CeliaSagas/Data-Coin/blob/12b8f09a65710ad579b19c905886df361f192a97/img/OLS_INF_QQ_Train.png)
 
-[Click Here](https://github.com/CeliaSagas/coffee-time) to see the full project
+[Click Here](https://github.com/CeliaSagas/Data-Coin) to see the full project
 
 # Table of contents
 
@@ -144,4 +144,4 @@ I hope this information brings you all the fulfillment and Salary options in you
 
 <!-- Add the footer here -->
 
-![Footer]()
+![Footer](https://github.com/CeliaSagas/Data-Coin/blob/12b8f09a65710ad579b19c905886df361f192a97/img/datacoinfooter.png)
