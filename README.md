@@ -23,8 +23,6 @@ What kind of companies and job postings will best serve your growth as a creator
 By scraping a little over 1300 salary postings in 36 cities across the continental United States, I was able to create a regression model that can somewhat predict salaries for data scientists according to some *key factors* identified by the model. Some of them are obvious, such as an Internship or Part Time position is associated with a decrease in Salary *(about 40k)*, while taking a position
 at a tech company on the West Coast is associated with an increase in Salary *(about an 11k boost)*.
 
-For now, however, we can gain a pretty moderate idea of the most important factors to keep in mind when applying for
-Data Scientist positions *(have you considered the West Coast? )*
 
 # Demo-Preview
 <!-- Add a demo for your project -->
