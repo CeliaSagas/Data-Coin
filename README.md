@@ -85,10 +85,10 @@ Geographical location was mapped onto the City in which the Salary was posted, w
 7. Chose XGBoosted Regression for final model, final Adjusted r2 = 0.67, RMSE = 15831.538
 
 
-![Adjusted R2 Values](https://github.com/CeliaSagas/Data-Coin/blob/ef28016a84dba0f15f5c55dd7dd7f744e0d35131/img/Bar_Plot_ADJ_R2.png)
+![Adjusted R2 Values](https://github.com/CeliaSagas/Data-Coin/blob/b8cfc8485e96d6e3b982803e606aabcc992c78f4/img/Bar_Plot_ADJ_R2.png)
 
 
-![RMSE Values](https://github.com/CeliaSagas/Data-Coin/blob/ef28016a84dba0f15f5c55dd7dd7f744e0d35131/img/Bar_Plot_Observations.png)
+![RMSE Values](https://github.com/CeliaSagas/Data-Coin/blob/b8cfc8485e96d6e3b982803e606aabcc992c78f4/img/Bar_Plot_RMSE.png)
 
 
 
