@@ -23,14 +23,6 @@ What kind of companies and job postings will best serve your growth as a creator
 By scraping a little over 1300 salary postings in 36 cities across the continental United States, I was able to create a regression model that can somewhat predict salaries for data scientists according to some *key factors* identified by the model. Some of them are obvious, such as an Internship or Part Time position is associated with a decrease in Salary *(about 40k)*, while taking a position
 at a tech company on the West Coast is associated with an increase in Salary *(about an 11k boost)*.
 
-But some other findings are nuanced and require further modelling, such as the Cost of Living-- a higher cost of living was associated with a very modest **decrease** in salary in the training set,*(- $28)*, a
-modest increase in the validation set *(+ $368)*, and again a decrese in the test set of data *(- $75)*.
-
-Perhaps the Cost of Living at the Headquarter city of the Company has a more direct relationship with
-Salary than the Cost of Living at the city in which the Job is posted.
-
-*Further inquiry is required.*
-
 For now, however, we can gain a pretty moderate idea of the most important factors to keep in mind when applying for
 Data Scientist positions *(have you considered the West Coast? )*
 
@@ -87,23 +79,18 @@ Geographical location was mapped onto the City in which the Salary was posted, w
 1. Standardized all continuous numerical data using the StandardScaler from SKLearn.
 2. Added an interaction term for West Coast + Tech industry
 3. Identified highly correlated features and removed those who had a pearson correlation coefficient > 0.7
-4. Added constant to Features dataframe and removed features with a VIF > 5.00
-5. Performed a Lasso Cross-Validation model with a Alpha Tuning on the training dataset with 28 features, 4 were dropped, Adjusted r2 = 0.433, MAE = 16138.46, RMSE = .451
-6. Performed a Ridge Cross-Validated model with Alpha Tuning on the training dataset with 28 features, Adjusted r2 = .431, MAE = 16117.85, RMSE = 20851.42
-7. Performed an OLS model with 28 features on the training dataset, 9 were significant, Adjusted r2 = .434, MAE = 16059.89, RMSE = 20812.746
-8. Performed a Step OLS model with insgnificant features removed on the training dataset, totalling 9 predictors, Adjusted r2 = .425, MAE = 16524.80, RMSE = 21221.05
-9. Identified influential points in the model and removed them, ran a subsequent Step OLS analysis with 9 features on the training set, Adjusted r2 = .445, MAE = 16156.337, RMSE = 20612.63
-10. Identified outliers in the model using Cook's distance, ran a subsequent Step OLS model with 9 features, 728 observations on the training datset, Adjusted r2 = 0.530, MAE = 14129.89, RMSE = 17227.546.
-11. Performed a Lasso Regression Analysis on the validation dataset with the optimal alpha value from the training dataset, Adjusted r2 = .468, MAE = 15577.056, RMSE = 20184.325
-12. Performed a Lasso Regression Analysis on the test dataset with the optimal alpha value identified in training, Final Adjusted r2 = .401, MAE = 16669.88, RMSE = 22055.264
+4. Performed an XGboosted Regression model tuning Alpha, Learning Rate, Sub Sample, and Alpha. Adjusted r2 = 0.51, RMSE = 18931.85
+5. Performed a Lasso Cross-Validation model with a Alpha Tuning on the training dataset with 19 features, 6 were dropped, Adjusted r2 = 0.370, RMSE = 21769.71
+6. Performed a Ridge Cross-Validated model with Alpha Tuning on the training dataset with 19 features, Adjusted r2 = .41, RMSE = 21676.12
+7. Chose XGBoosted Regression for final model, final Adjusted r2 = 0.67, RMSE = 15831.538
+
 
 ![Adjusted R2 Values](https://github.com/CeliaSagas/Data-Coin/blob/ef28016a84dba0f15f5c55dd7dd7f744e0d35131/img/Bar_Plot_ADJ_R2.png)
 
-Model fit decreases when dropping predictors (OLS Step), increases moderately when removing influential points (OLs_INF), and substantially increases when removing outliers (OLS OUT)
 
-![Observations](https://github.com/CeliaSagas/Data-Coin/blob/ef28016a84dba0f15f5c55dd7dd7f744e0d35131/img/Bar_Plot_Observations.png)
+![RMSE Values](https://github.com/CeliaSagas/Data-Coin/blob/ef28016a84dba0f15f5c55dd7dd7f744e0d35131/img/Bar_Plot_Observations.png)
 
-However, the increase in model fit comes at the cost of data points: 4 lost to influence, 53 lost to outliers. Overfitting is a major factor in deciding which model to choose for testing.
+
 
 # Installation
 [(Back to top)](#table-of-contents)
